@@ -1,0 +1,112 @@
+/* ==========================================================
+ Код ниже вставляем в люое место в файл main.css
+========================================================== */
+
+.fixed-h {
+	height: 390px;
+}
+.label-money {
+	display: inline-block;
+	padding: 5px;
+	background-color: #5cb85c;
+	color: #fff;
+	font-size: 14px;
+	font-family: "OpenSansLight";
+	text-align: center;
+}
+.pay-input {
+	width: 100%;
+	height: 50px;
+	border-radius: 2px;
+	border: 1px solid #ccc;
+	color: #666;
+	font-size: 14px;
+	padding-left: 15px;
+	outline: none;
+}
+.pay-form .pay-input:nth-child(2),
+.pay-form .pay-input:nth-child(3),
+.pay-form select {
+	margin-top: 15px;
+}
+.pay-btn {
+	width: 100%;
+	height: 50px;
+	border: none;
+	color: #fff;
+	background: #0096ff;
+	margin-top: 15px;
+	border-radius: 2px;
+}
+.pay-table {
+	font-size: 14px;
+}
+.pay-table>thead>tr>th {
+	padding: 25px;
+	border: none;
+	background: #f4f4f4;
+}
+.pay-table>tbody>tr>td {
+	border-top: none;
+	border-bottom: 1px solid #eee;
+	padding: 25px;
+	line-height: 40px;
+}
+.pay-sum {
+	color: #3ca689;
+	font-family: "OpenSansBold";
+}
+.pay-accept {
+	border: none;
+	width: 130px;
+	height: 40px;
+	color: #fff;
+	background: #3ca689;
+	border-radius: 2px;
+}
+.pay-reject {
+	border: 1px solid #ccc;
+	width: 130px;
+	height: 40px;
+	color: #ccc;
+	background: transparent;
+	border-radius: 2px;
+}
+.pay-controll button {
+	display: inline-block;
+	line-height: auto;
+}
+.pay-controll button:nth-child(1) {
+	margin-right: 10px;
+}
+
+.pay-moder-table {
+	font-size: 14px;
+}
+.pay-moder-table>thead>tr>th {
+	padding: 25px;
+	border: none;
+	background: #f4f4f4;
+}
+.pay-moder-table>tbody>tr>td {
+	border-top: none;
+	border-bottom: 1px solid #eee;
+	padding: 25px;
+	line-height: 40px;
+}
+.pay-success {
+	color: #3ca689;
+	font-family: "OpenSansBold";
+}
+
+/* ==========================================================
+ Этот код надо поместить в media.css в @media (max-width: 767px) 
+========================================================== */
+
+.inner-title a {
+	float: left!important;
+	margin-top: 20px;
+}
+.fixed-h {
+	height: 100%;
+}

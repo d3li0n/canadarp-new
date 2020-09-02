@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Управление платежами</title>
+
+    <!-- CSS Libs -->
+    <link rel="stylesheet" href="libs/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="libs/animate/animate.min.css">
+    <link rel="stylesheet" href="libs/fa/css/font-awesome.min.css">
+
+    <!-- CSS Default -->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/media.css">
+
+    <!-- JS Files -->
+    <script src="libs/jquery/jquery-3.1.1.min.js"></script>
+    <script src="libs/bootstrap/bootstrap.min.js"></script>
+    <script src="libs/animate/animate.js"></script>
+    <script src="libs/scroll2id/scroll2id.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>new WOW().init();</script>
+
+    <!-- LS Default -->
+    <script src="js/common.js"></script>
+
+  </head>
+  <body>
+    
+    <!-- HEADER [START] -->
+    <section class="inner-header">
+      <div class="header-navbar">
+        <nav class="navbar">
+          <div class="container">
+            <div class="row">
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#collapse">
+                  <i class="fa fa-bars"></i> Открыть меню
+                </button>
+              </div>
+              <div class="collapse navbar-collapse" id="collapse">
+                <ul class="nav navbar-nav">
+                  <li><a href="/admin_index.html">Главная</a></li>
+                  <li><a href="/admin_acc.html">Аккаунты</a></li>
+                  <li><a href="/admin_news.html">Управление новостями</a></li>
+                  <li><a href="/admin_leaders.html">Лидеры</a></li>
+                  <li><a href="/admin_admins.html">Администраторы</a></li>
+                  <li><a href="/admin_admins.html">Выйти</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </section>
+    <!-- HEADER [END] -->
+
+    <section class="inner-section">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="inner-container">
+              <div class="inner-title clearfix">
+                <h2 class="pull-left">Средства на модерации</h2><a class="pull-right" href="#">Показать весь список</a>
+              </div>
+              <div class="inner-body">
+                <div class="table-responsive">
+                  <table class="table pay-table">
+                    <thead>
+                      <tr>
+                        <th>ID</th>
+                        <th>Никнейм игрока</th>
+                        <th>IP игрока</th>
+                        <th>IP приглашенных</th>
+                        <th>ВП</th>
+                        <th>ВУ</th>
+                        <th>Сумма</th>
+                        <th>Управление</th>
+                      </tr>
+                    </thead>
+                    <tr>
+                      <td>#252634</td>
+                      <td>Nick_Name</td>
+                      <td>188.116.64.130</td>
+                      <td>188.116.64.130</td>
+                      <td>5</td>
+                      <td>1</td>
+                      <td><span class="pay-sum">2.500 рублей</span></td>
+                      <td class="pay-controll"><button class="pay-accept">Принять</button> <button class="pay-reject">Отклонить</button></td>
+                    </tr>
+                  
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="inner-section">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="inner-container">
+              <div class="inner-title clearfix">
+                <h2 class="pull-left">История модерации</h2><a class="pull-right" href="#">Посмотреть всю историю</a>
+              </div>
+              <div class="inner-body">
+                <div class="table-responsive">
+                  <table class="table pay-moder-table">
+                    <thead>
+                      <tr>
+                        <th>ID</th>
+                        <th>Никнейм игрока</th>
+                        <th>Сумма</th>
+                        <th>Дата</th>
+                        <th>Статус</th>
+                      </tr>
+                    </thead>
+                    <tr>
+                      <td>#252634</td>
+                      <td>Nick_Name</td>
+                      <td><span class="pay-sum">2.500 рублей</span></td>
+                      <td>05.09.2017</td>
+                      <td>Ожидает обработки</td>
+                    </tr>
+                    <tr>
+                      <td>#252634</td>
+                      <td>Nick_Name</td>
+                      <td><span class="pay-sum">2.500 рублей</span></td>
+                      <td>05.09.2017</td>
+                      <td><span class="pay-success">Платеж обработан</span></td>
+                    </tr>
+                    <tr>
+                      <td>#252634</td>
+                      <td>Nick_Name</td>
+                      <td><span class="pay-sum">2.500 рублей</span></td>
+                      <td>05.09.2017</td>
+                      <td>Ожидает обработки</td>
+                    </tr>
+                    <tr>
+                      <td>#252634</td>
+                      <td>Nick_Name</td>
+                      <td><span class="pay-sum">2.500 рублей</span></td>
+                      <td>05.09.2017</td>
+                      <td>Ожидает обработки</td>
+                    </tr>
+                    <tr>
+                      <td>#252634</td>
+                      <td>Nick_Name</td>
+                      <td><span class="pay-sum">2.500 рублей</span></td>
+                      <td>05.09.2017</td>
+                      <td>Ожидает обработки</td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  
+  </body>
+</html>

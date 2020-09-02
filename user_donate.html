@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Example RolePlay - авторизация</title>
+
+    <!-- CSS Libs -->
+    <link rel="stylesheet" href="libs/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="libs/animate/animate.min.css">
+    <link rel="stylesheet" href="libs/fa/css/font-awesome.min.css">
+    <link rel="stylesheet" href="libs/selecter/jquery.fs.selecter.css">
+
+    <!-- CSS Default -->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/media.css">
+
+    <!-- JS Files -->
+    <script src="libs/jquery/jquery-3.1.1.min.js"></script>
+    <script src="libs/selecter/jquery.fs.selecter.min.js"></script>
+    <script src="libs/bootstrap/bootstrap.min.js"></script>
+    <script src="libs/animate/animate.js"></script>
+    <script src="libs/scroll2id/scroll2id.min.js"></script>
+    <script src="js/modernizr.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>new WOW().init();</script>
+
+    <!-- LS Default -->
+    <script src="js/common.js"></script>
+
+  </head>
+  <body>
+
+    <!-- INNER-HEADER [START] -->
+    <section class="inner-header animated wow fadeIn">
+      <nav class="navbar">
+        <div class="container">
+          <div class="row">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#collapse">
+                <i class="fa fa-bars"></i>
+              </button>
+            </div>
+            <div class="collapse navbar-collapse" id="collapse">
+              <ul class="nav navbar-nav">
+                <li><a href="#">Главная</a></li>
+                <li><a href="#">Форум</a></li>
+                <li><a href="#">Мониторинг</a></li>
+                <li><a href="#">Как начать игру?</a></li>
+                <li class="visible-xs"><a href="#">Личный кабинет</a></li>
+              </ul>
+              <ul class="nav navbar-nav navbar-right">
+                <li class="hidden-xs"><a href="#"><img src="img/sign-in.png" alt=""></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="page-title"><h1>Пополнение счета</h1></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- INNER-HEADER [END] -->
+
+    <!-- INNER-SECTION [START] -->
+    <section class="inner-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-md-8 col-sm-8">
+            <div class="inner-container">
+              <div class="inner-title"><h2>Пополнение счета</h2></div>
+              <div class="inner-body">
+                <form action="" method="" class="donate-form">
+                  <input type="text" class="main-input" placeholder="Номер аккаунта">
+                  <input type="text" class="main-input" placeholder="Cумма пополнения">
+                  <!-- Выпадающий список -->
+                  <select id="s-select">
+                    <option selected disabled>Выберите сервер</option>
+                    <option class="select-item" value="1">Sphere RP | Mercury</option>
+                    <option class="select-item" value="2">Sphere RP | Test</option>
+                  </select>
+                  <!-- Всё между комментариями скопировать и вставить в воей странице после инпута "Сумма пополнения"-->
+                  <!-- Должно получится как тут по структуре, потом уже после выпадающего списка кнопка -->
+                  <button class="button button-light btn-send btn-shadow">Оплатить</button>
+                </form>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-mg-4 col-sm-4">
+            <div class="inner-container xs-margin">
+              <div class="inner-title"><h2>Полезная информация</h2></div>
+              <div class="inner-body">
+                <div class="donate-info">
+                  <p>После пополнения счета Вашего аккаунта введите на сервере команду <span>/donate</span> для просмотра баланса. Вы можете использовать рубли для конвертации в игровую валюту или приобретения других донат-услуг, которые найдете в меню <span>/donate</span>.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- INNER-SECTION [END] -->
+
+    <!-- FOOTER [START] -->
+    <section class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="copy">
+            <span>Sphere RolePlay © 2017 | Все права защищены</span><br>
+            
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- FOOTER [END] -->
+  </body>
+</html>
